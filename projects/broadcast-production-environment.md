@@ -24,6 +24,30 @@ municipal broadcasts.
 
 ![Municipal broadcast production environment](../images/broadcast-production-environment.jpg)
 
+## Council Chambers
+
+The broadcast control environment supported the audiovisual and
+production systems installed throughout the council chambers.
+
+My responsibilities extended beyond the control room to troubleshooting
+and maintaining chamber technology, including displays, signal paths,
+Crestron hardware, video distribution, and related production systems.
+
+When failures occurred, I isolated problems to the affected component
+or signal path, replaced and configured hardware when appropriate, and
+coordinated with outside integrators when specialized replacement or
+service was required.
+
+![Council chambers dais and integrated technology](../images/broadcast-chambers-dais-technology.jpg)
+
+*Integrated displays, monitoring, microphones, and audiovisual systems
+at the council dais.*
+
+![Council chambers overview](../images/broadcast-chambers-overview.jpg)
+
+*Council chambers supported by the broadcast and audiovisual production
+environment.*
+
 ## System Review and Acceptance
 
 Although I was not the system designer or the person with formal
@@ -131,7 +155,7 @@ while allowing the failed power-supply issue to be addressed separately.
 The following photograph shows Crestron hardware and the PoE equipment
 used while supporting the integrated AV environment.
 
-![Crestron AV troubleshooting and PoE equipment](../images/broadcast-crestron-troubleshooting.jpg)
+![Crestron AV troubleshooting and PoE equipment](../images/imagesbroadcast-crestron-troubleshooting.jpg)
 
 ## Troubleshooting Approach
 
