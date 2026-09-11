@@ -155,7 +155,7 @@ while allowing the failed power-supply issue to be addressed separately.
 The following photograph shows Crestron hardware and the PoE equipment
 used while supporting the integrated AV environment.
 
-![Crestron AV troubleshooting and PoE equipment](../images/imagesbroadcast-crestron-troubleshooting.jpg)
+![Crestron AV troubleshooting and PoE equipment](../images/broadcast-crestron-troubleshooting.jpg)
 
 ## Troubleshooting Approach
 
