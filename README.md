@@ -18,7 +18,7 @@ organizational IT support.
 
 ## Selected Projects
 
-### Networked AV / NDI Production System
+### [Networked AV / NDI Production System](projects/networked-av-ndi-production-system.md)
 
 Supported and documented a multi-room professional production
 environment using NDI video transport alongside SDI, HDMI, embedded
