@@ -48,6 +48,15 @@ Two additional workstations accessed the Cloud Store through a 1Gb
 extension path intended primarily for file transfer and collaborative
 media access.
 
+## Generalized Topology
+
+The following diagram presents a generalized version of the shared-storage
+environment. Organization-specific identifiers and operational details
+have been removed while preserving the architecture relevant to the
+project.
+
+![Shared media storage environment topology](../images/shared-media-storage-topology.png)
+
 ## Traffic Separation
 
 A key part of the design was keeping shared-storage traffic separate
