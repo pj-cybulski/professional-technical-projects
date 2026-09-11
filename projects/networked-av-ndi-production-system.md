@@ -49,7 +49,7 @@ The diagram shows the relationship between network-connected NDI
 devices and the traditional video and audio infrastructure used by the
 production system.
 
-**[Signal-flow diagram will be added here]**
+![Networked AV and NDI production system signal-flow diagram](../images/ndi-production-system-signal-flow.png)
 
 ## Troubleshooting Approach
 
