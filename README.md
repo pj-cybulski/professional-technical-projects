@@ -49,7 +49,7 @@ deployable system.
 
 **Evidence:** Photograph of the completed field production system.
 
-### Self-Contained Mobile Streaming System
+### [Self-Contained Mobile Streaming System](projects/mobile-streaming-system.md)
 
 Designed and built a self-contained portable live-streaming system
 integrating video switching, monitoring, video I/O, onboard power, and
