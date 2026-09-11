@@ -60,7 +60,7 @@ a compact platform for live production and streaming.
 
 **Evidence:** Build-process and field-deployment photographs.
 
-### Broadcast Production Environment
+### [Broadcast Production Environment](projects/broadcast-production-environment.md)
 
 Maintained and supported the technical systems used in a professional
 municipal broadcast control environment, including production
