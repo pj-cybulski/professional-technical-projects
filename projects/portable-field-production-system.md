@@ -5,13 +5,19 @@
 Designed and built an integrated portable production system for
 professional field video production.
 
-The system combined production switching, monitoring, computer-based
-production tools, signal I/O, audio monitoring, and rack-mounted
-equipment into a single deployable platform.
+The system combined production switching, recording, playback,
+streaming, camera control, monitoring, computer-based production tools,
+signal I/O, audio monitoring, and rack-mounted equipment into a single
+deployable platform.
 
-The goal was to consolidate equipment that would otherwise require
-separate setup and interconnection into a system that could be
-transported, deployed, operated, and supported in the field.
+A significant part of the system was IP-based. Multiple production
+devices communicated over a local Ethernet network that I designed and
+configured, while a travel router provided flexible Internet
+connectivity for streaming operations.
+
+The goal was to create a portable system that could be transported to a
+venue, connected to the available network infrastructure, and operated
+as a reliable self-contained production environment.
 
 ## My Role
 
@@ -19,50 +25,150 @@ I designed and built the system as part of my professional work.
 
 My responsibilities included planning how the components would work
 together, selecting and integrating equipment, determining signal
-paths, installing hardware, routing and connecting equipment, testing
-the completed system, and supporting it during field use.
+paths, installing hardware, designing and configuring the production
+network, configuring Internet connectivity and streaming redundancy,
+creating production-control macros, maintaining device firmware,
+testing the completed system, and supporting it during field use.
 
-The project required considering both the technical operation of the
-individual components and how the complete system would function as a
-reliable production platform.
+The project required integrating traditional audio/video systems,
+computers, peripherals, networked devices, Internet services, and
+production-control automation into a single operational environment.
 
 ## System Integration
 
 The portable system incorporated:
 
 - Video production switching
+- Recording and playback systems
+- Two streaming encoders
 - Multiview and production monitoring
 - Computer-based production and control tools
 - Video signal input and output
 - Audio monitoring
+- Network-controlled cameras
+- Camera controller
+- Production laptop
+- Travel router and Ethernet switching
 - Rack-mounted production equipment
-- Cameras and external production sources
 - Physical equipment integration and cable management
 
-## Design Approach
+## Networked Production Environment
 
-The system was designed around field deployment rather than permanent
-installation.
+A significant part of the system integration involved designing and
+configuring the network used by the IP-connected production equipment.
 
-Equipment needed to be physically integrated into a transportable
-platform while maintaining usable controls, monitoring, connectivity,
-and access for troubleshooting.
+The production network included:
 
-Signal relationships also needed to remain understandable so problems
-could be isolated quickly during production.
+- Production switcher
+- Recorder
+- Playback system
+- Production laptop
+- Two streaming encoders
+- Camera controller
+- Three network-connected cameras
+- Travel router providing network and Internet connectivity
+- Unmanaged Ethernet switch connecting the production devices
 
-## Testing and Support
+I configured the network addressing for the production equipment and
+reserved IP addresses for the devices through the router so that each
+device had a predictable address on the network.
 
-After integration, the system was tested as a complete production
-environment rather than only as individual components.
+I also configured known static addressing on the equipment for use when
+needed. This provided a predictable addressing plan that did not depend
+on discovering or reassigning device addresses during field deployment.
 
-Supporting the system in the field required troubleshooting across
-multiple layers, including source equipment, cabling, signal paths,
-production hardware, computers, peripherals, and destination devices.
+### IP Addressing Design
 
-This systems-level troubleshooting experience required determining
-which component or connection in the overall workflow was responsible
-when the expected result was not available.
+I designed a simple addressing scheme that grouped production devices
+by function, making device addresses predictable and easier to identify
+during setup and troubleshooting.
+
+| Function | Address Range |
+| --- | --- |
+| Router / Gateway | 192.168.1.1 |
+| Core production equipment | 192.168.1.10–13 |
+| Streaming encoders | 192.168.1.20–21 |
+| Camera control system | 192.168.1.30–33 |
+
+The core production group included the switcher, recorder, playback
+system, and production laptop. The camera-control group included the
+controller and three network-connected cameras.
+
+This organization made it easier to identify a device's expected
+address and isolate connectivity problems during setup and field
+deployment.
+
+## Internet Connectivity and Streaming Redundancy
+
+The system was designed to accommodate different Internet connectivity
+available at field locations.
+
+When a venue provided wired Ethernet, I connected the venue network to
+the travel router for Internet access. When wired connectivity was not
+available, the travel router could instead connect to an available
+wireless network while the internal production network remained
+connected behind it.
+
+The two streaming encoders were configured with primary and fallback
+streaming capability. I configured YouTube fallback streams so that a
+second encoder could continue the stream if the primary encoder
+encountered a problem.
+
+When venue Internet connectivity was unreliable, I could also place one
+encoder on a separate hotspot connection. This provided an independent
+Internet path rather than having both streaming encoders depend on the
+same venue connection.
+
+This approach provided redundancy at both the streaming-device and,
+when necessary, Internet-connectivity level.
+
+## Device Configuration and Maintenance
+
+I was responsible for configuring and maintaining the production
+devices used in the system, including keeping device firmware current.
+
+Much of the troubleshooting occurred during the design, integration,
+and testing phase. Connectivity, device configuration, signal-flow, and
+interoperability problems were identified and resolved before the
+system entered regular field use.
+
+As a result, the completed system was stable during normal deployment
+and required relatively little troubleshooting in production.
+
+## Production Control and XML Macros
+
+The production workflow also required custom control macros.
+
+I created and modified macros in XML format to automate production
+functions and create repeatable control sequences for the system.
+
+This required working directly with structured configuration data,
+understanding how individual commands affected the production
+equipment, testing the resulting behavior, and refining the macros
+until the automated sequences operated as intended.
+
+## Troubleshooting Approach
+
+Building and testing the system required troubleshooting across several
+technical layers:
+
+- Physical cabling and connectivity
+- Device configuration
+- IP addressing and network communication
+- Internet connectivity
+- Streaming configuration
+- Computer and peripheral operation
+- Firmware and device interoperability
+- Audio/video signal flow
+- Production-control configuration
+
+Troubleshooting required determining which layer of the complete
+workflow was responsible for a problem rather than treating each device
+independently.
+
+The emphasis during development was to identify and resolve these
+problems before field deployment so that the finished system would
+operate reliably during live production.
 
 ## Physical System
 
@@ -73,19 +179,27 @@ used for field deployment.
 
 ## Skills Demonstrated
 
+- TCP/IP networking
+- IP address planning and configuration
+- DHCP reservations and static IP configuration
+- Ethernet device connectivity
+- Wired and wireless Internet connectivity
+- Network troubleshooting
+- Streaming redundancy and failover planning
+- Network-controlled camera systems
+- Streaming encoder integration
+- Device configuration and firmware maintenance
+- XML configuration and production-control macros
 - Systems integration
 - Hardware installation
 - Technical troubleshooting
 - Video signal-flow analysis
 - Computer and peripheral integration
-- Audio and video systems
 - Rack equipment integration
-- Cable management and connectivity
 - Field deployment
-- System testing
-- Operational support
+- System testing and operational support
 
 ## Project Context
 
-This system was designed, built, tested, and supported as part of my
-professional municipal broadcast and media-production work.
+This system was designed, built, configured, tested, and supported as
+part of my professional municipal broadcast and media-production work.
