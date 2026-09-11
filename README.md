@@ -40,7 +40,7 @@ infrastructure.
 
 **Evidence:** System topology and operational documentation.
 
-### Portable Field Production System
+### [Portable Field Production System](projects/portable-field-production-system.md)
 
 Designed and built an integrated portable production system for field
 use, combining video switching, monitoring, production control,
