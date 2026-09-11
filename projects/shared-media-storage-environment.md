@@ -118,6 +118,13 @@ For this public portfolio, organization-specific details are omitted and
 the project is presented as a generalized example of the environment and
 support work.
 
+## Physical System
+
+The shared-storage environment was installed as part of the department's
+production infrastructure.
+
+![Installed Blackmagic Cloud Store shared-storage system](../images/shared-media-storage-rack.jpg)
+
 ## Skills Demonstrated
 
 - Shared storage support
