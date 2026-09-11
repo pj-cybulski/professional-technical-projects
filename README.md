@@ -70,7 +70,7 @@ production infrastructure.
 **Evidence:** Photographs of the production environment maintained
 during my professional work.
 
-### Laptop Hardware Repair and Linux Deployment
+### [Laptop Hardware Repair and Linux Deployment](projects/laptop-hardware-repair-linux-deployment.md)
 
 Completed a major hardware repair on a personal laptop requiring
 extensive system disassembly and reassembly.
