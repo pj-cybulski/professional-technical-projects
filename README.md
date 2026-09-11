@@ -24,9 +24,6 @@ Supported and documented a multi-room professional production
 environment using NDI video transport alongside SDI, HDMI, embedded
 audio, production switching, and AV control systems.
 
-**Evidence:** Original signal-flow documentation created for the
-production environment.
-
 ### [Shared Media Storage Environment](projects/shared-media-storage-environment.md)
 
 Supported a Blackmagic Cloud Store shared-storage environment serving
@@ -38,27 +35,26 @@ operational troubleshooting, system documentation, and coordination
 with central IT when issues crossed into managed network
 infrastructure.
 
-**Evidence:** System topology and operational documentation.
-
 ### [Portable Field Production System](projects/portable-field-production-system.md)
 
-Designed and built an integrated portable production system for field
-use, combining video switching, monitoring, production control,
-computer-based tools, signal I/O, and rack-mounted equipment into a
-deployable system.
+Designed and built an integrated portable production system combining
+video production, networked devices, streaming, camera control, and
+field connectivity.
 
-**Evidence:** Photograph of the completed field production system.
+Designed and configured the production network, including structured IP
+addressing, DHCP reservations, static device configuration, Internet
+connectivity, network-controlled cameras, streaming encoders, and
+production equipment.
 
 ### [Self-Contained Mobile Streaming System](projects/mobile-streaming-system.md)
 
 Designed and built a self-contained portable live-streaming system
-integrating video switching, monitoring, video I/O, onboard power, and
-connectivity to a cellular-bonded LiveU transmission system.
+integrating video switching, multiview monitoring, onboard DC power,
+external connectivity, and cellular-bonded LiveU workflows.
 
-The system was designed to reduce field setup requirements and provide
-a compact platform for live production and streaming.
-
-**Evidence:** Build-process and field-deployment photographs.
+The system was developed to provide additional production capability
+and redundant streaming options after reliability problems with the
+existing field-streaming workflow.
 
 ### [Broadcast Production Environment](projects/broadcast-production-environment.md)
 
@@ -66,9 +62,6 @@ Maintained and supported the technical systems used in a professional
 municipal broadcast control environment, including production
 switching, monitoring, audio, computers, peripherals, and associated
 production infrastructure.
-
-**Evidence:** Photographs of the production environment maintained
-during my professional work.
 
 ### [Laptop Hardware Repair and Linux Deployment](projects/laptop-hardware-repair-linux-deployment.md)
 
@@ -86,15 +79,17 @@ computer to normal operation.
 **Evidence:** Photographs documenting the disassembly, component
 replacement, reassembly, firmware verification, and completed system.
 
-**Project type:** Personal technical project.
 
 ## Portfolio Notes
 
-The projects shown here represent systems I built, maintained,
-supported, or documented as part of my professional work. Individual
-project pages provide additional context about my specific role so that
-design, implementation, operation, and support responsibilities are
-clearly distinguished.
+The projects shown here include systems I built, maintained, supported,
+or documented during my professional work, along with a selected
+personal technical project demonstrating endpoint hardware and Linux
+skills.
+
+Individual project pages provide additional context about my specific
+role so that design, implementation, operation, support, and personal
+project work are clearly distinguished.
 
 Organization-specific or sensitive technical information is omitted
 where appropriate.
