@@ -27,7 +27,7 @@ audio, production switching, and AV control systems.
 **Evidence:** Original signal-flow documentation created for the
 production environment.
 
-### Shared Media Storage Environment
+### [Shared Media Storage Environment](projects/shared-media-storage-environment.md)
 
 Supported a Blackmagic Cloud Store shared-storage environment serving
 multiple production and communications workstations over dedicated
